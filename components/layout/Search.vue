@@ -403,24 +403,6 @@
                 margin-top: -4px;
             }
 
-            .ai-button {
-                height: 40px;
-                background: $black-3;
-                border: none;
-                color: $white;
-                border-radius: 8px;
-                padding: 8px 16px;
-                gap: 8px;
-                display: flex;
-                align-items: center;
-                transition: all 0.2s ease;
-
-                &:hover {
-                    background: $black-5;
-                    color: $white;
-                }
-            }
-
             .esc {
                 color: $black-10;
                 font-size: 0.563rem;

@@ -678,4 +678,29 @@ small.agree {
     }
 }
 
+
+.ai-button {
+    background: $black-3;
+    color: $white;
+    padding: 4px 16px;
+    transition: all 0.2s ease;
+    border-radius: 4px;
+    border: 1px solid #3991FF;
+    background: #252526;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    text-align: center;
+    position: relative;
+
+    img {
+        position: relative;
+        top: -3px;
+    }
+
+    &:hover {
+        background: darken(#252526, 0.15);
+        color: $white;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    }
+}
+
 @import "./docs";

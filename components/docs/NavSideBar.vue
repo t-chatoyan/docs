@@ -11,6 +11,15 @@
             >
                 <Menu /> Documentation Menu
             </button>
+            <button
+                class="btn btn-md btn-primary ai-button mb-2"
+                title="Ask Kestra AI"
+                data-bs-toggle="modal"
+                data-bs-target="#search-ai-modal"
+            >
+                <NuxtImg src="/docs/icons/ks-ai.png" alt="Kestra AI"  height="100%" />
+                Ask Kestra AI
+            </button>
             <div class="search" data-bs-toggle="modal" data-bs-target="#search-modal" title="Search">
                 <div class="input-group">
                     <div class="input-icon">
@@ -126,6 +135,16 @@
             @include media-breakpoint-up(lg) {
                 display: block !important; // stylelint-disable-line declaration-no-important
             }
+        }
+
+        .search, button.ai-button {
+            width: 209px;
+        }
+
+        button.ai-button {
+            height: 32px;
+            padding: 2px 8px;
+            font-size: 0.875rem;
         }
 
         .search {
